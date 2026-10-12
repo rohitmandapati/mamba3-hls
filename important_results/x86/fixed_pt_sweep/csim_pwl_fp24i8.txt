@@ -1,0 +1,11 @@
+# label:  pwl_fp24i8
+# flags:  MAMBA3_NSTEPS=64 MAMBA3_USE_FIXED_POINT=1 MAMBA3_FIXED_TOTAL_BITS=24 MAMBA3_FIXED_INT_BITS=8 
+# date:   Sat Apr 25 07:57:36 PM EDT 2026
+
+Global error summary:
+  state_out max / mean / rmse: 0.000895023 / 8.04814e-05 / 0.000110403
+  out       max / mean / rmse: 29.5684 / 0.000450682 / 0.0812562
+
+*** FAIL *** (threshold=0.5)
+mamba3_step DUT     :      1 calls; 3301.349 msecs total time
+INFO [HLS SIM]: The maximum depth reached by any hls::stream() instance in the design is 108552

@@ -1,0 +1,25 @@
+# Config:    baseline
+# Bitstream: /home/ubuntu/mamba3_hls/baseline.bit
+# Date:      Sun Apr 26 03:29:23 UTC 2026
+
+Global error summary:
+  state_out max / mean / rmse: 4.52995e-06 / 2.04725e-07 / 3.67052e-07
+  out       max / mean / rmse: 4.57764e-05 / 6.43609e-07 / 2.06913e-06
+
+*** Kria Host PASS (64 step(s)/invocation) ***
+
+kria fpga-only      :     10 calls; 539.990 msecs total time
+kria host end-to-end:      1 calls; 692.458 msecs total time
+  Seq 0 | fpga: 54.075 ms | TPOT: 0.844921 ms/step | state max err: 4.29153e-06 | out max err: 1.52588e-05
+  Seq 1 | fpga: 53.951 ms | TPOT: 0.842984 ms/step | state max err: 4.29153e-06 | out max err: 2.14577e-05
+  Seq 2 | fpga: 54.031 ms | TPOT: 0.844234 ms/step | state max err: 3.09944e-06 | out max err: 3.14713e-05
+  Seq 3 | fpga: 54.004 ms | TPOT: 0.843813 ms/step | state max err: 3.57628e-06 | out max err: 2.47955e-05
+  Seq 4 | fpga: 53.977 ms | TPOT: 0.843391 ms/step | state max err: 3.93391e-06 | out max err: 1.52588e-05
+  Seq 5 | fpga: 54.063 ms | TPOT: 0.844734 ms/step | state max err: 3.8147e-06 | out max err: 1.33514e-05
+  Seq 6 | fpga: 53.879 ms | TPOT: 0.841859 ms/step | state max err: 4.52995e-06 | out max err: 7.62939e-06
+  Seq 7 | fpga: 54.06 ms | TPOT: 0.844688 ms/step | state max err: 2.74181e-06 | out max err: 4.57764e-05
+  Seq 8 | fpga: 54.035 ms | TPOT: 0.844297 ms/step | state max err: 2.20537e-06 | out max err: 9.05991e-06
+  Seq 9 | fpga: 53.921 ms | TPOT: 0.842516 ms/step | state max err: 2.14577e-06 | out max err: 1.45435e-05
+*** Kria Host PASS (64 step(s)/invocation) ***
+kria fpga-only      :     10 calls; 539.990 msecs total time
+kria host end-to-end:      1 calls; 692.458 msecs total time

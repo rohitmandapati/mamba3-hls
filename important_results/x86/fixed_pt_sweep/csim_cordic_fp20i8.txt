@@ -1,0 +1,11 @@
+# label:  cordic_fp20i8
+# flags:  MAMBA3_NSTEPS=64 MAMBA3_USE_FIXED_POINT=1 MAMBA3_FIXED_TOTAL_BITS=20 MAMBA3_FIXED_INT_BITS=8 MAMBA3_USE_PWL_NONLINEARITIES=0 MAMBA3_USE_CORDIC=1
+# date:   Sat Apr 25 08:01:37 PM EDT 2026
+
+Global error summary:
+  state_out max / mean / rmse: 0.00927735 / 0.00112875 / 0.00148479
+  out       max / mean / rmse: 29.5684 / 0.0026903 / 0.0816263
+
+*** FAIL *** (threshold=0.5)
+mamba3_step DUT     :      1 calls; 3804.299 msecs total time
+INFO [HLS SIM]: The maximum depth reached by any hls::stream() instance in the design is 108552

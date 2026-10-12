@@ -1,0 +1,15 @@
+__pycache__/
+build/
+workspace/
+result/
+kria_dir/
+.Xil/
+*.log
+*.jou
+logs/
+*.prj
+*.dat
+*.prj.*/
+.venv
+weights.pt
+docs/

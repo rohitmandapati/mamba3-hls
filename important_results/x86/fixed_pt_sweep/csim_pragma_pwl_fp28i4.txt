@@ -1,0 +1,11 @@
+# label:  pragma_pwl_fp28i4
+# flags:  MAMBA3_NSTEPS=64 MAMBA3_USE_FIXED_POINT=1 MAMBA3_FIXED_TOTAL_BITS=28 MAMBA3_FIXED_INT_BITS=4 MAMBA3_ENABLE_HLS_PRAGMAS=1
+# date:   Sat Apr 25 08:08:41 PM EDT 2026
+
+Global error summary:
+  state_out max / mean / rmse: 0.000588179 / 4.24058e-05 / 6.65735e-05
+  out       max / mean / rmse: 149.568 / 0.324123 / 2.44333
+
+*** FAIL *** (threshold=0.5)
+mamba3_step DUT     :      1 calls; 3563.864 msecs total time
+INFO [HLS SIM]: The maximum depth reached by any hls::stream() instance in the design is 108552

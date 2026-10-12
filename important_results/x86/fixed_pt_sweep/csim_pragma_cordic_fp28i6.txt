@@ -1,0 +1,11 @@
+# label:  pragma_cordic_fp28i6
+# flags:  MAMBA3_NSTEPS=64 MAMBA3_USE_FIXED_POINT=1 MAMBA3_FIXED_TOTAL_BITS=28 MAMBA3_FIXED_INT_BITS=6 MAMBA3_ENABLE_HLS_PRAGMAS=1 MAMBA3_USE_PWL_NONLINEARITIES=0 MAMBA3_USE_CORDIC=1
+# date:   Sat Apr 25 08:14:08 PM EDT 2026
+
+Global error summary:
+  state_out max / mean / rmse: 0.00758886 / 0.000622063 / 0.000999473
+  out       max / mean / rmse: 125.568 / 0.0372141 / 1.13207
+
+*** FAIL *** (threshold=0.5)
+mamba3_step DUT     :      1 calls; 3637.424 msecs total time
+INFO [HLS SIM]: The maximum depth reached by any hls::stream() instance in the design is 108552

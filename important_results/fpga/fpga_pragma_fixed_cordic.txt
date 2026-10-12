@@ -1,0 +1,25 @@
+# Config:    pragma_fixed_cordic
+# Bitstream: /home/ubuntu/mamba3_hls/pragma_fixed_cordic.bit
+# Date:      Sun Apr 26 03:29:29 UTC 2026
+
+Global error summary:
+  state_out max / mean / rmse: 0.0125742 / 0.000935096 / 0.00149129
+  out       max / mean / rmse: 0.120815 / 0.00225513 / 0.00690924
+
+*** Kria Host PASS (64 step(s)/invocation) ***
+
+kria fpga-only      :     10 calls; 535.504 msecs total time
+kria host end-to-end:      1 calls; 689.464 msecs total time
+  Seq 0 | fpga: 54.016 ms | TPOT: 0.844 ms/step | state max err: 0.0107403 | out max err: 0.0611315
+  Seq 1 | fpga: 53.574 ms | TPOT: 0.837094 ms/step | state max err: 0.0113132 | out max err: 0.088192
+  Seq 2 | fpga: 53.488 ms | TPOT: 0.83575 ms/step | state max err: 0.00580549 | out max err: 0.03652
+  Seq 3 | fpga: 53.432 ms | TPOT: 0.834875 ms/step | state max err: 0.00899649 | out max err: 0.0606403
+  Seq 4 | fpga: 53.628 ms | TPOT: 0.837938 ms/step | state max err: 0.0107927 | out max err: 0.0567741
+  Seq 5 | fpga: 53.462 ms | TPOT: 0.835344 ms/step | state max err: 0.00963902 | out max err: 0.0657349
+  Seq 6 | fpga: 53.361 ms | TPOT: 0.833766 ms/step | state max err: 0.0125742 | out max err: 0.0382309
+  Seq 7 | fpga: 53.516 ms | TPOT: 0.836188 ms/step | state max err: 0.0086875 | out max err: 0.120815
+  Seq 8 | fpga: 53.541 ms | TPOT: 0.836578 ms/step | state max err: 0.00542569 | out max err: 0.0308485
+  Seq 9 | fpga: 53.492 ms | TPOT: 0.835813 ms/step | state max err: 0.00459337 | out max err: 0.028255
+*** Kria Host PASS (64 step(s)/invocation) ***
+kria fpga-only      :     10 calls; 535.504 msecs total time
+kria host end-to-end:      1 calls; 689.464 msecs total time
