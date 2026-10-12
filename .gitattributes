@@ -1,0 +1,2 @@
+# Exclude the upstream Mamba-3 reference implementation from GitHub's language statistics
+src/hls/mamba_ssm/** linguist-vendored
